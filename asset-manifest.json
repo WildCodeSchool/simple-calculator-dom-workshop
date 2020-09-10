@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/simple-calculator-dom-workshop/static/js/main.702b89b9.chunk.js",
+    "main.js.map": "/simple-calculator-dom-workshop/static/js/main.702b89b9.chunk.js.map",
+    "runtime~main.js": "/simple-calculator-dom-workshop/static/js/runtime~main.7fab3c0a.js",
+    "runtime~main.js.map": "/simple-calculator-dom-workshop/static/js/runtime~main.7fab3c0a.js.map",
+    "static/js/2.bb51c59f.chunk.js": "/simple-calculator-dom-workshop/static/js/2.bb51c59f.chunk.js",
+    "static/js/2.bb51c59f.chunk.js.map": "/simple-calculator-dom-workshop/static/js/2.bb51c59f.chunk.js.map",
+    "index.html": "/simple-calculator-dom-workshop/index.html",
+    "precache-manifest.cecf8580ad4d7ceec33c06f84371bebd.js": "/simple-calculator-dom-workshop/precache-manifest.cecf8580ad4d7ceec33c06f84371bebd.js",
+    "service-worker.js": "/simple-calculator-dom-workshop/service-worker.js"
+  }
+}
