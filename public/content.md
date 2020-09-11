@@ -27,6 +27,7 @@ At the end of the *index.html*, before the `</body>` closing tag, add a "src" a
 
 Also add a `<h1>` title to your *index.html*.
 
+> You are ready to start ! Wait for the correction or help your classmates
 
 #### Get value from a form field
 
@@ -46,6 +47,8 @@ In our case, we only want to get the value entered in the input. Thus, you shoul
 In the JS code, remove the `prompt()` parts and replace it with JS code to get value from each inputs.
 
 **Remark:** `parseInt()` functions are still mandatory because, like prompt, field values are always considerated as *strings*, even if you enter a number.
+
+> Wait for the correction or help your classmates
 
 #### Listen to user interaction on a button
 
@@ -84,6 +87,8 @@ Add an *eventListener* on the new 'calculate' button, which will trigger the pre
 
 In the browser console, you should see the result of the different operations each time you click on the button.
 
+> Wait for the correction or help your classmates
+
 #### Add text to an element
 
 Browser console is great, but it could be even better if you could see the result directly on the page.
@@ -104,5 +109,9 @@ Then use `innerHTML` to write this result inside the HTML element with 'result' 
 
 And that's all ! you have a very basic calculator !
 
-As a bonus, you can add some style, adding a CSS file.
-You can also display an error in the "result" element if you try to divide a number per zero.
+> Wait for the correction, help your classmates, or try to work on the bonus below
+
+#### Bonus
+
+- Display an error in the "result" element if you try to divide a number per zero.
+- Add some style using CSS.
