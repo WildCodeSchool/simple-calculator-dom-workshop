@@ -18,8 +18,6 @@ During this workshop, we will learn to :
 
 Start from the first [simple calculator workshop](https://wildcodeschool.github.io/simple-calculator-workshop/). You should already have a simple *index.html* file with HTML structure and JS code in a `<script>` tag.
 
-Using Git, create a **new branch** named 'dom-caculator' and start this new workshop on it.
-
 First, you will move the JS code from HTML file to a dedicated JS file (it is a best practice to separate HTML and JS in different files).
 Create a file named *script.js* and cut and paste all the javascript code into this new file (juste JS code, do not paste the HTML `<script>` tags)
 
