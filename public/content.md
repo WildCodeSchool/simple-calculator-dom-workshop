@@ -18,54 +18,14 @@ During this workshop, we will learn to :
 
 Start from the first [simple calculator workshop](https://wildcodeschool.github.io/simple-calculator-workshop/). You should already have a simple *index.html* file with HTML structure and JS code in a `<script>` tag.
 
+Using Git, create a **new branch** named 'dom-caculator' and start this new workshop on it.
+
 First, you will move the JS code from HTML file to a dedicated JS file (it is a best practice to separate HTML and JS in different files).
 Create a file named *script.js* and cut and paste all the javascript code into this new file (juste JS code, do not paste the HTML `<script>` tags)
 
 At the end of the *index.html*, before the `</body>` closing tag, add a "src" attribute to the remaining `<script>` tag to link the js file to the *index.html*.
 
-Also add a `<h1>` title to your *index.html*, then you should have 
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple calculator</title>
-</head>
-<body>
-    <h1>Simple calculator</h1>
-    <script src="script.js"></script>
-</body>
-</html>
-```
-
-your *script.js* file should be 
-
-```js
-  let firstValue = prompt('First value:');
-  firstValue = parseInt(firstValue);
-  let secondValue = prompt('Second value:');
-  secondValue = parseInt(secondValue);
-  let operand = prompt('Operand:');
-
-  switch (operand) {
-    case '+':
-      console.log(firstValue + secondValue);
-      break;
-    case '-':
-      console.log(firstValue - secondValue);
-      break;
-    case '*':
-      console.log(firstValue * secondValue);
-      break;
-    case '/':
-      console.log(firstValue / secondValue);
-      break;
-    default:
-      console.log('Invalid operator');
-  }
-```
+Also add a `<h1>` title to your *index.html*.
 
 
 #### Get value from a form field
