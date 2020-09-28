@@ -74,7 +74,7 @@ myButton.addEventListener('hover', function (event) {
 });
 ```
 
-As you can see, the function `addEventistener()` has 2 parameters. First one is the event type, second is a function to execute if the event occurs on the element.
+As you can see, the function `addEventListener()` has 2 parameters. First one is the event type, second is a function to execute if the event occurs on the element.
 It is a function which is a parameter of another function... Yes! It might be a bit confusing at first, but you will quickly become very familiar with this concept ! 
 
 Another particularity, this second function can be defined without a name between *function* keyword and parenthesis (**anonymous function**). 
